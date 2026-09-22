@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fujiii Restaurant is a fictional neighborhood restaurant for slow dinners, open fire, and good company."
+    />
+    <meta name="theme-color" content="#15130f" />
+    <title>Fujiii Restaurant — Neighborhood dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Karla:wght@400;500;600;700&family=Playfair+Display+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.replace('no-js', 'js');
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Fujiii Restaurant home">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/fujiii-restaurant-mark.svg" alt="" width="64" height="64" />
+          </span>
+          <span class="brand-copy">
+            <strong>Fujiii <span class="brand-type">Restaurant</span></strong>
+            <small>Neighborhood dining / after dark</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#menu">The menu</a>
+          <a href="#story">The room</a>
+          <a href="#visit">Find us</a>
+          <a class="nav-reserve" href="#visit">Plan the night <span aria-hidden="true">&#8599;</span></a>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+
+      <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+        <div class="mobile-menu-inner">
+          <p class="mobile-menu-kicker">Fujiii Restaurant</p>
+          <a href="#menu"><span>01</span>The menu</a>
+          <a href="#story"><span>02</span>The room</a>
+          <a href="#visit"><span>03</span>Find us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-shell">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Open five nights / from 5:30</p>
+            <h1 id="hero-title">
+              A table for the
+              <span>in-between hours.</span>
+            </h1>
+            <p class="hero-intro">
+              A neighborhood restaurant for slow dinners, open fire, and the part of the night that
+              does not need a name.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-light" href="#menu">See the menu <span aria-hidden="true">&#8595;</span></a>
+              <a class="text-link text-link-light" href="#visit">Find the room <span aria-hidden="true">&#8599;</span></a>
+            </div>
+            <div class="hero-meta" aria-label="Restaurant details">
+            </div>
+          </div>
+
+          <figure class="hero-figure" data-reveal>
+            <img
+              src="assets/restaurant-hero.png"
+              alt="Warmly lit restaurant interior with an open kitchen and a set table"
+              width="1536"
+              height="1024"
+            />
+            <figcaption>
+              <span></span>
+              <span>Open kitchen, late light</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="hero-edge-note" aria-hidden="true">Eat slowly / stay a while</div>
+      </section>
+
+      <section class="menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-shell">
+          <div class="section-intro" data-reveal>
+            <p class="section-kicker">01 / The table</p>
+            <div class="section-intro-copy">
+              <h2 id="menu-title">The menu moves with the <em>room.</em></h2>
+              <p>
+                A short list built around the fire, the market, and whatever looks best when the doors
+                open.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-layout">
+            <div class="menu-list" data-reveal>
+              <article class="menu-item">
+                <div class="menu-item-top">
+                  <span class="menu-item-number">01</span>
+                  <h3>Charred eggplant</h3>
+                  <span class="menu-price">14</span>
+                </div>
+                <p>Whipped tahini, blistered grape, toasted seed</p>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-top">
+                  <span class="menu-item-number">02</span>
+                  <h3>Coal-roasted chicken</h3>
+                  <span class="menu-price">26</span>
+                </div>
+                <p>Sour cherry, black lime, warm flatbread</p>
+              </article>
+              <article class="menu-item">
+                <div class="menu-item-top">
+                  <span class="menu-item-number">03</span>
+                  <h3>Olive-oil cake</h3>
+                  <span class="menu-price">11</span>
+                </div>
+                <p>Burnt honey, citrus, black sesame</p>
+              </article>
+              <a class="text-link text-link-dark menu-link" href="#visit">Ask about tonight’s menu <span aria-hidden="true">&#8599;</span></a>
+            </div>
+
+            <div class="food-gallery" data-reveal>
+              <figure class="food-card food-card-main">
+                <img
+                  src="assets/signature-dish.png"
+                  alt="Charred eggplant with whipped tahini, grapes, seeds, and herbs"
+                  width="1024"
+                  height="1024"
+                  loading="lazy"
+                />
+                <figcaption><span>From the fire</span><span>Charred / bright / slow</span></figcaption>
+              </figure>
+              <figure class="food-card food-card-small">
+                <img
+                  src="assets/dessert.png"
+                  alt="Olive-oil cake with citrus and burnt honey on a ceramic plate"
+                  width="1024"
+                  height="1024"
+                  loading="lazy"
+                />
+                <figcaption><span>Something sweet</span><span>Last course</span></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="story-shell">
+          <div class="story-stamp" aria-hidden="true">Fujiii<span>2026</span></div>
+          <div class="story-copy" data-reveal>
+            <p class="section-kicker">02 / The room</p>
+            <h2 id="story-title">Come for the fire. Stay for the <em>last song.</em></h2>
+            <p>
+              Fujiii Restaurant is intentionally a little unfinished: dark timber, soft lamps, an open
+              kitchen, and enough room for the evening to change shape.
+            </p>
+            <a class="text-link text-link-light" href="#visit">See the opening hours <span aria-hidden="true">&#8599;</span></a>
+          </div>
+          <div class="story-note" data-reveal>
+            <span>Built for lingering</span>
+            <strong>Good food<br />needs time.</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit" aria-labelledby="visit-title">
+        <div class="section-shell visit-shell">
+          <div class="visit-heading" data-reveal>
+            <p class="section-kicker">03 / Find us</p>
+            <h2 id="visit-title">Make a night<br /><em>of it.</em></h2>
+          </div>
+          <div class="visit-details" data-reveal>
+            <p class="visit-lead">The lights come on at half past five. The kitchen closes when the room feels ready.</p>
+            <dl class="hours-list">
+              <div>
+                <dt>Wednesday — Sunday</dt>
+                <dd>5:30 — 23:00</dd>
+              </div>
+              <div>
+                <dt>18 Mercer Lane</dt>
+                <dd>Old market quarter</dd>
+              </div>
+              <div>
+                <dt>Walk-ins welcome</dt>
+                <dd>Tables held until 19:00</dd>
+              </div>
+            </dl>
+            <a class="button button-dark" href="#top">Back to the beginning <span aria-hidden="true">&#8593;</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <span>Fujiii Restaurant</span>
+        <span>Sample landing page</span>
+        <span>© <span id="year">2026</span></span>
+      </div>
+    </footer>
+  </body>
+</html>
