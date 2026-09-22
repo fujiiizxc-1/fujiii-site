@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en" class="no-js" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Alren Shinji E. Li, a fourth-year LNU student focused on frontend design."
+    />
+    <meta name="theme-color" content="#090a0c" />
+    <title>Alren Shinji E. Li — Frontend Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Alren Shinji E. Li home">
+          <span class="brand-name">Alren<span class="brand-dot">.</span></span>
+          <span class="brand-role">Frontend design / LNU</span>
+        </a>
+
+        <p class="header-date">Portfolio</p>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-pressed="false"
+          aria-label="Switch to light mode"
+        >
+          <span class="theme-toggle-mark" aria-hidden="true"></span>
+          <span class="theme-toggle-label" data-theme-label>Light</span>
+        </button>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+
+      <nav class="site-menu" id="site-menu" aria-label="Main navigation">
+        <div class="site-menu-inner">
+          <div class="menu-aside">
+            <p class="menu-kicker">Navigation</p>
+            <p class="menu-note">Move through the current chapter, one section at a time.</p>
+            <p class="menu-theme-state">
+              Appearance / <span data-theme-status>Dark</span>
+            </p>
+          </div>
+
+          <div class="menu-links">
+            <a class="menu-link" href="#work">
+              <span class="menu-link-index">01</span>
+              <span class="menu-link-main">Work</span>
+              <span class="menu-link-description">Open archive</span>
+              <span class="menu-link-arrow" aria-hidden="true">&#8599;</span>
+            </a>
+            <a class="menu-link" href="#about">
+              <span class="menu-link-index">02</span>
+              <span class="menu-link-main">About</span>
+              <span class="menu-link-description">Current chapter</span>
+              <span class="menu-link-arrow" aria-hidden="true">&#8599;</span>
+            </a>
+            <a class="menu-link" href="#contact">
+              <span class="menu-link-index">03</span>
+              <span class="menu-link-main">Connect</span>
+              <span class="menu-link-description">Start a conversation</span>
+              <span class="menu-link-arrow" aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+
+          <div class="menu-footer">
+            <span>Alren Shinji E. Li</span>
+            <a
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=fujiiizxc%40gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Email me</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-reveal>Portfolio / First edition</p>
+            <h1 id="hero-title" data-reveal>
+              Alren
+              <span class="hero-outline">Shinji<br />Li.</span>
+            </h1>
+            <p class="hero-dek" data-reveal>
+              A fourth-year student from LNU learning how to make the web feel clear, useful, and
+              unmistakably human.
+            </p>
+            <div class="hero-meta" data-reveal>
+              <span>Focus</span>
+              <strong>Frontend design</strong>
+            </div>
+          </div>
+
+          <div class="hero-media-wrap" data-reveal>
+            <div class="hero-media-frame" data-tilt>
+              <img
+                src="assets/alren-hero.png"
+                alt="Portrait of Alren Shinji E. Li"
+                width="1024"
+                height="1365"
+              />
+              <div class="hero-media-overlay" aria-hidden="true"></div>
+              <div class="hero-media-mark" aria-hidden="true">AL / 01</div>
+            </div>
+            <div class="media-caption">
+              <span>Portrait / present</span>
+              <span>Scroll to explore</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <span>Scroll to explore</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+          <span class="hero-bottom-note">Learning in public, one interface at a time.</span>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-inner">
+          <div class="work-heading" data-reveal>
+            <div>
+              <p class="eyebrow">Work / open archive</p>
+              <h2 id="work-title">Work in <em>progress.</em></h2>
+            </div>
+            <div class="work-count" aria-label="Zero published projects">
+              <span>Published projects</span>
+              <strong>0</strong>
+            </div>
+          </div>
+
+          <div class="work-board" data-reveal>
+            <div class="work-board-visual" aria-hidden="true">
+              <span class="work-board-zero">00</span>
+              <span class="work-board-rule"></span>
+              <span class="work-board-caption">First entry pending</span>
+            </div>
+            <div class="work-board-copy">
+              <p class="work-status"><span class="work-status-dot"></span>Currently building</p>
+              <h3>No published projects <em>yet.</em></h3>
+              <p>
+                I do not have finished projects to show yet. This space is reserved for the first
+                interface worth sharing.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-footer" data-reveal>
+            <span>Archive status / empty by design</span>
+            <span>Next update / when it is ready</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-inner about-layout">
+          <div class="about-statement" data-reveal>
+            <p class="eyebrow">About / current chapter</p>
+            <h2 id="about-title">Small decisions make the screen feel <em>right.</em></h2>
+          </div>
+
+          <div class="about-copy" data-reveal>
+            <p class="about-lead">
+              I&#39;m a fourth-year student from LNU exploring how thoughtful structure, visual rhythm,
+              and purposeful motion can turn a page into an experience people understand quickly.
+            </p>
+            <p>
+              My focus is frontend design: learning how to make interfaces feel as good to use as
+              they look, one careful decision at a time.
+            </p>
+            <dl class="about-facts">
+              <div>
+                <dt>Current focus</dt>
+                <dd>Frontend design</dd>
+              </div>
+              <div>
+                <dt>Next step</dt>
+                <dd>Build and share first projects</dd>
+              </div>
+              <div>
+                <dt>Working style</dt>
+                <dd>Curious, precise, always learning</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner contact-layout" data-reveal>
+          <div>
+            <p class="eyebrow">Connect / say hello</p>
+            <h2 id="contact-title">Let&#39;s build the next screen.</h2>
+          </div>
+          <div class="contact-copy">
+            <p>
+              Want to talk through an idea, share an opportunity, or simply say hello? Email is the
+              best place to reach me.
+            </p>
+            <div class="email-list">
+              <a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=fujiiizxc%40gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >fujiiizxc@gmail.com <span aria-hidden="true">&#8599;</span></a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=alrenshinji.li01%40gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >alrenshinji.li01@gmail.com <span aria-hidden="true">&#8599;</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>Alren Shinji E. Li</span>
+        <span>Frontend design / in progress</span>
+        <a href="#top">Back to top &#8593;</a>
+      </div>
+    </footer>
+  </body>
+</html>
