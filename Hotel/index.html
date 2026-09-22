@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fujii Hotel is a quiet coastal retreat shaped around light, water, and unhurried days."
+    />
+    <meta name="theme-color" content="#0c1e2d" />
+    <title>Fujii Hotel — A quiet coastal stay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Playfair+Display+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Fujii Hotel home">
+          <img class="brand-logo" src="assets/fujii-hotel-mark.svg" alt="" width="36" height="36" />
+          <span class="brand-copy">
+            <strong>Fujii Hotel</strong>
+            <small>Coastal retreat</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#story">The house</a>
+          <a href="#stays">The stays</a>
+          <a href="#ritual">The ritual</a>
+        </nav>
+
+        <a class="nav-action" href="#reserve">Reserve a stay <span aria-hidden="true">↗</span></a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-inner">
+          <p class="mobile-menu-kicker">Fujii Hotel / Explore</p>
+          <nav class="mobile-nav" aria-label="Mobile navigation">
+            <a href="#story"><span>01</span>The house</a>
+            <a href="#stays"><span>02</span>The stays</a>
+            <a href="#ritual"><span>03</span>The ritual</a>
+            <a href="#reserve"><span>04</span>Reserve</a>
+          </nav>
+          <p class="mobile-menu-note">North Aegean coast / open all year</p>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero-photo"
+          src="assets/hotel-hero.png"
+          alt="Sunlit coastal hotel terrace, infinity pool, and sea horizon"
+          width="1536"
+          height="864"
+        />
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content page-width">
+          <p class="eyebrow hero-eyebrow" data-reveal>North Aegean / 2026</p>
+          <h1 id="hero-title" data-reveal>
+            Stay close<br />
+            <em>to the horizon.</em>
+          </h1>
+          <p class="hero-description" data-reveal>
+            A quiet coastal house for long swims, open windows, and the rare luxury of nowhere else
+            to be.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="button button-light" href="#stays">Explore the stay <span aria-hidden="true">↗</span></a>
+            <a class="quiet-link" href="#story">Scroll to discover <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <div class="hero-footer page-width" data-reveal>
+          <span>Fujii Hotel</span>
+          <span>37° 48′ N / 25° 15′ E</span>
+          <span>Stay a little longer</span>
+        </div>
+      </section>
+
+      <section class="story-section" id="story" aria-labelledby="story-title">
+        <div class="page-width">
+          <p class="section-kicker" data-reveal>01 / The house</p>
+          <div class="story-grid">
+            <h2 id="story-title" data-reveal>A private edge of the <em>blue.</em></h2>
+            <div class="story-copy" data-reveal>
+              <p class="story-lead">
+                Fujii Hotel sits lightly above the sea, made from local stone, salt air, and the
+                belief that a beautiful stay should leave room for your own rhythm.
+              </p>
+              <p>
+                Mornings begin with light across the water. Afternoons disappear beside the pool.
+                By evening, the house turns toward the horizon and lets the day soften around you.
+              </p>
+            </div>
+          </div>
+
+          <div class="story-stats" data-reveal>
+            <div><strong>12</strong><span>Rooms with a view</span></div>
+            <div><strong>04</strong><span>Minutes to the water</span></div>
+            <div><strong>01</strong><span>Good reason to stay</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stays-section" id="stays" aria-labelledby="stays-title">
+        <div class="page-width">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">02 / The stays</p>
+            <p class="section-aside">Three ways to settle into the light.</p>
+          </div>
+
+          <div class="stays-intro" data-reveal>
+            <h2 id="stays-title">Rooms made for<br /><em>unhurried days.</em></h2>
+            <p>Each room opens to the sea, the garden, or the quiet in between.</p>
+          </div>
+
+          <div class="stay-grid">
+            <article class="stay-card stay-card-featured" data-reveal>
+              <div class="stay-visual stay-visual-horizon">
+                <span>01 / 03</span>
+              </div>
+              <div class="stay-card-copy">
+                <div><h3>The horizon suite</h3><p>For two / sea-facing</p></div>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+
+            <article class="stay-card" data-reveal>
+              <div class="stay-visual stay-visual-garden">
+                <span>02 / 03</span>
+              </div>
+              <div class="stay-card-copy">
+                <div><h3>The garden room</h3><p>For two / terrace access</p></div>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+
+            <article class="stay-card" data-reveal>
+              <div class="stay-visual stay-visual-tidal">
+                <span>03 / 03</span>
+              </div>
+              <div class="stay-card-copy">
+                <div><h3>The tidal villa</h3><p>For four / private pool</p></div>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ritual-section" id="ritual" aria-labelledby="ritual-title">
+        <div class="page-width ritual-grid">
+          <div class="ritual-visual" data-reveal aria-hidden="true">
+            <div class="ritual-visual-ring"></div>
+            <span>Let the day arrive slowly.</span>
+          </div>
+          <div class="ritual-copy" data-reveal>
+            <p class="section-kicker">03 / The ritual</p>
+            <h2 id="ritual-title">Morning has a different rhythm here.</h2>
+            <p>
+              Follow the sun from the first coffee to the last swim. The rest can wait until you
+              return home.
+            </p>
+            <a class="text-link" href="#reserve">Make space for it <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="reserve-section" id="reserve" aria-labelledby="reserve-title">
+        <div class="page-width reserve-inner" data-reveal>
+          <p class="section-kicker">Fujii Hotel / Your next quiet place</p>
+          <h2 id="reserve-title">Leave room for the good kind of nothing.</h2>
+          <a class="button button-dark" href="#stays">View the rooms <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <div class="footer-intro">
+          <a class="footer-brand" href="#top">Fujii Hotel<span>.</span></a>
+          <p>North Aegean coast / Open all year</p>
+        </div>
+
+        <div class="footer-details" aria-label="Fujii Hotel details">
+          <div class="footer-detail">
+            <span>Location</span>
+            <strong>North Aegean coast</strong>
+          </div>
+          <div class="footer-detail">
+            <span>Rooms</span>
+            <strong>12 rooms with a view</strong>
+          </div>
+          <div class="footer-detail">
+            <span>To the water</span>
+            <strong>04 minutes on foot</strong>
+          </div>
+        </div>
+
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
